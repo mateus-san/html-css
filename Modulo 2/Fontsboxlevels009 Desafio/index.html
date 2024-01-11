@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Sites</title>
+
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(0, 0, 0);
+        }
+        header{
+            background-color: rgba(0, 0, 0, 0.562);
+            color: rgba(146, 6, 6, 0.74);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+              
+        }
+        header>a>h1{
+            text-align: center;
+            background-image: linear-gradient(to top, rgb(0, 0, 0),rgb(163, 0, 0));
+            color: aliceblue;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+            display:inline-block;
+            font-size: 55px;
+            
+        
+        }
+        header >a>h1:hover{
+            text-decoration:wavy;
+            background-color: rgba(216, 214, 214, 0.733);
+            border-radius: 10px; 
+        }
+        main{
+            background-color: rgba(31, 31, 30, 0.795);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        
+        nav{
+            background-color: rgba(0, 0, 0, 0.808);
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 4px 3px 4px 7px rgba(51, 49, 49, 0.829);
+            border-radius: 5px;
+        }
+        nav> a{
+            text-decoration: none;
+            background-color: rgba(146, 6, 6, 0.74);
+            color: rgb(255, 255, 255);
+            padding: 8px;
+            margin: 10px;
+            margin-right: 40px;
+            border-radius: 8px;
+        }
+        nav > a:hover{
+            text-decoration:wavy;
+            background-color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+        section{
+            background-color: rgba(195, 196, 197, 0.678);
+            margin: 10px;
+            padding: 0.1em;
+            border-radius: 10px;
+        }
+        section#assuntos>p{
+            background-color: rgba(195, 196, 197, 0.082);
+            
+            color: aliceblue;
+            margin: 10px;
+            padding: 0.1em;
+            border-radius: 10px;
+            font-size: 30px;
+            
+        }
+        aside{
+            background-color: rgba(0, 0, 0, 0.938);
+            color: rgba(158, 7, 7, 0.918);
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+            display:inline-block;
+            font-size: 18px;
+            font-weight: 500;
+            
+        }
+        footer{
+            background-color: black;
+            color: beige;
+            text-align: center;
+            border-radius: 10px;
+        }
+        article{
+            background-color: rgba(255, 255, 255, 0.678);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+
+img{
+    width: 800px;
+    height: 500px;
+}
+.Link-Materia{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: wavy;
+    font-size: 25px;
+
+}
+
+.Link-Materia:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+    </style>
+</head>
+<body>
+    
+       <header>
+        <a href="#">
+            <h1>Geek 10</h1>
+        </a>
+       <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Blog</a>
+        <a href="#">Em Alta</a>
+        <a href="#">Reviews</a>
+       </nav>
+       </header>
+    <main>
+        <section id="assuntos">
+            <p>Mundo dos Games</p>
+        </section>
+        <section id="noticias">
+            
+                <article>
+                    <h2>Noticias Steam</h2>
+                    <a class="Link-Materia" href="noticia-steam.html"> Link para a Matéria </a>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, praesentium quis ea cumque optio consequatur error delectus sequi veritatis dolores quasi perferendis, eveniet architecto ratione aliquid cupiditate quisquam, fugiat neque!
+                    </p>
+                    
+                    <a href="imagens/O-que-e-Steam.jpg" rel="external" target="_blank"><img src="imagens/O-que-e-Steam.jpg" alt="steam logo"></a>
+                
+                </article>
+           
+            <aside>
+                <p>Artigo Escrito por Tomas Turbando</p>
+         </aside>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Epic</h2>
+                <a class="Link-Materia" href="noticia-epic.html" rel="external">Link para a Matéria </a>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, praesentium quis ea cumque optio consequatur error delectus sequi veritatis dolores quasi perferendis, eveniet architecto ratione aliquid cupiditate quisquam, fugiat neque!
+                    </p>
+                    <img src="imagens/Destaque-Epic-Games-Fortnite-1024x576.jpg" alt="epic logo">
+                
+            </article>
+            <aside>
+                <p>Artigo Escrito por Claudia Rego Melo Pinto</p>
+            </aside>
+        </section>
+        <section id="noticias">
+            
+                <article>
+                    <h2>Noticias do Rockstar</h2>
+                    <a class="Link-Materia" href="noticia-gta6.html"> Link para a Matéria </a>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, praesentium quis ea cumque optio consequatur error delectus sequi veritatis dolores quasi perferendis, eveniet architecto ratione aliquid cupiditate quisquam, fugiat neque!
+                    </p>
+                    <img src="imagens/gta-6-kotu-haber-serinin-yazari-istifa-etti.jpg" alt="GTA 6 logo">
+               
+                </article>
+            
+            <aside>
+                <p>Artigo Escrito por Oscar Alho</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Desenvolvido por Mateus Santos <a href="#"> Privacidade dos dados</a>
+        </p>
+    </footer>
+
+</body>
+</html>
